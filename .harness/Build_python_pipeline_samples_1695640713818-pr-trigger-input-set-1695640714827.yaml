@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_python_pipeline_samples_1695640713818-pr-trigger-input-set
+  identifier: Build_python_pipeline_samples_1695640713818prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Harness_CI
+  pipeline:
+    identifier: Build_python_pipeline_samples_1695640713818
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
